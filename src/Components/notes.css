@@ -1,0 +1,50 @@
+.note {
+    border-radius: 15px;
+    border: 1.5px solid black;
+    color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+.note_footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.title_inputs {
+    padding: 10px ;
+    border-radius: 10px;
+    margin: 15px 0px 15px 0px;
+}
+
+.note textarea {
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    color: black;
+    resize: none;
+    font-size: 18px;
+}
+
+.note textarea:focus {
+    outline: none;
+}
+
+.note textarea::placeholder {
+    color: black;
+}
+
+.note_save {
+    background: transparent;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
